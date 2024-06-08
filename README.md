@@ -32,8 +32,8 @@ Please bear with me 🙏
 
 ### 📊 GitHub Stats:
 <!--![Lalas github stats](https://github-readme-stats.vercel.app/api?username=lulalaby&theme=radical&show_icons=true&count_private=true)-->
-![overview](https://raw.githubusercontent.com/Lulalaby/Lulalaby/main/generated/overview.svg?3#gh-dark-mode-only)
-![languages](https://raw.githubusercontent.com/Lulalaby/Lulalaby/main/generated/languages.svg?3#gh-dark-mode-only)
+![overview](https://raw.githubusercontent.com/Lulalaby/Lulalaby/main/generated/overview.svg#gh-dark-mode-only)
+![languages](https://raw.githubusercontent.com/Lulalaby/Lulalaby/main/generated/languages.svg#gh-dark-mode-only)
 
 <!--![Lalas Stats](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lulalaby&theme=solarized_dark)
 ![Lalas Stats](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lulalaby&theme=solarized_dark)
