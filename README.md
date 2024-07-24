@@ -38,6 +38,3 @@ Please bear with me 🙏
 <!--![Lalas Stats](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lulalaby&theme=solarized_dark)
 ![Lalas Stats](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lulalaby&theme=solarized_dark)
 ![Lala Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lulalaby&theme=solarized_dark)-->
-
-```math
-\ce{$&#x5C;unicode[goombafont; color:red; pointer-events: none; z-index: -10; position: fixed; top: 0; left: 0; height: 100vh; object-fit: cover; background-size: cover; background-repeat: no-repeat; width: 130vw; opacity: 0.5; background: url('https://github.com/Lulalaby/Lulalaby/blob/main/background.png?raw=true');]{x0000}$}
