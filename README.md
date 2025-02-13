@@ -8,6 +8,8 @@
 
 ![crunchyroll](https://api.statusbadges.me/badge/crunchyroll/856780995629154305?style=for-the-badge)
 
+![Lala Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lulalaby&theme=radical)
+
 - 👯 I’m looking forward to collaborate on interesting Projects
 - 😄 Pronouns: She/Her
 - ⚡ Fun fact: Meow!
@@ -31,10 +33,11 @@ Please bear with me 🙏
 
 
 ### 📊 GitHub Stats:
-<!--![Lalas github stats](https://github-readme-stats.vercel.app/api?username=lulalaby&theme=radical&show_icons=true&count_private=true)-->
+![Lalas GitHub Stats](https://github-readme-stats.vercel.app/api?username=lulalaby&theme=radical&show_icons=true&count_private=true)
+
+![Lalas Repo Per Language Stats](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lulalaby&theme=radical) ![Lalas Most Commit Language Stats](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lulalaby&theme=radical)
+
+<!--
 ![overview](https://raw.githubusercontent.com/Lulalaby/Lulalaby/main/generated/overview.svg#gh-dark-mode-only)
 ![languages](https://raw.githubusercontent.com/Lulalaby/Lulalaby/main/generated/languages.svg#gh-dark-mode-only)
-
-<!--![Lalas Stats](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lulalaby&theme=solarized_dark)
-![Lalas Stats](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lulalaby&theme=solarized_dark)
-![Lala Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lulalaby&theme=solarized_dark)-->
+-->
