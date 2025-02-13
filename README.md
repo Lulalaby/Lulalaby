@@ -1,13 +1,15 @@
 ## Hi there, I'm Lala Sabathil
 
-![status](https://api.statusbadges.me/badge/status/856780995629154305?style=for-the-badge) ![playing](https://api.statusbadges.me/badge/playing/856780995629154305?style=for-the-badge) ![vscode](https://api.statusbadges.me/badge/vscode/856780995629154305?style=for-the-badge) ![crunchyroll](https://api.statusbadges.me/badge/crunchyroll/856780995629154305?style=for-the-badge)
+![Status](https://api.statusbadges.me/badge/status/856780995629154305?style=for-the-badge) ![Currently Playing](https://api.statusbadges.me/badge/playing/856780995629154305?style=for-the-badge) ![Currently Coding](https://api.statusbadges.me/badge/vscode/856780995629154305?style=for-the-badge) ![Currently Watching](https://api.statusbadges.me/badge/crunchyroll/856780995629154305?style=for-the-badge)
 
-👯 I’m looking forward to collaborate on interesting Projects
-😄 Pronouns: She/Her
-⚡ Fun fact: Meow!
+- 👯 I’m looking forward to collaborate on interesting Projects
+- 😄 Pronouns: She/Her
+- ⚡ Fun fact: Meow!
+
+---
 
 
-### Information
+### ℹ️ Information
 
 I have problems with social interactions. Even if some things seem rude I definitly don't mean it like that.
 I really try my best to communicate as good as I can 💕
@@ -29,17 +31,18 @@ Please bear with me 🙏
 
 ---
 
-### Some Gists
+### 📝 Some Gists
 
 ![Discord Role Tags Documentation](https://lulalaby-stats.ci.aitsys.dev/api/gist?id=a9ac5fcce5c182efd55167e6141c1542&theme=radical&show_icons=true&count_private=true&show_owner=true)
 
 ---
 
-### 🏆 Holopin Badges:
+### 🏆 Holopin Badges
 [![An image of @lulalaby's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/lulalaby)](https://holopin.io/@lulalaby)
-<br/>
 
-### 🏆 GitHub Profile Trophy:
+---
+
+### 🏆 GitHub Profile Trophy
 <a href="https://github.com/ryo-ma/github-profile-trophy">
   <img width=800 src="https://github-profile-trophy.vercel.app/?username=lulalaby&column=8&theme=discord&no-frame=true&no-bg=true"/>
 </a>
