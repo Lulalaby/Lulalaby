@@ -38,7 +38,6 @@ class Queries(object):
         :param generated_query: string query to be sent to the API
         :return: decoded GraphQL JSON output
         """
-
         headers = {
             "Authorization": f"Bearer {self.access_token}",
         }
@@ -64,7 +63,6 @@ class Queries(object):
                 result = r_requests.json()
                 if result is not None:
                     return result
-
         return dict()
 
     async def query_rest(self, path: str, params: Optional[Dict] = None) -> Dict:
@@ -78,8 +76,6 @@ class Queries(object):
         for _ in range(60):
             headers = {
                 "Authorization": f"token {self.access_token}",
-                "X-GitHub-Api-Version": "2022-11-28",
-                "Accept": "application/vnd.github+json",
             }
             if params is None:
                 params = dict()
@@ -140,7 +136,6 @@ class Queries(object):
         isFork: false,
         after: {"null" if owned_cursor is None else '"'+ owned_cursor +'"'}
     ) {{
-      totalCount
       pageInfo {{
         hasNextPage
         endCursor
@@ -177,7 +172,6 @@ class Queries(object):
         ]
         after: {"null" if contrib_cursor is None else '"'+ contrib_cursor +'"'}
     ) {{
-      totalCount
       pageInfo {{
         hasNextPage
         endCursor
@@ -279,7 +273,6 @@ class Stats(object):
         self._repos: Optional[Set[str]] = None
         self._lines_changed: Optional[Tuple[int, int]] = None
         self._views: Optional[int] = None
-        self._get_stats_completed: Optional[asyncio.Event] = None
 
     async def to_str(self) -> str:
         """
@@ -303,24 +296,13 @@ Languages:
   - {formatted_languages}"""
 
     async def get_stats(self) -> None:
-        if self._get_stats_completed is not None:
-            await self._get_stats_completed.wait()
-            return
-
-        self._get_stats_completed = asyncio.Event()
-        await self._get_stats()
-        self._get_stats_completed.set()
-
-    async def _get_stats(self) -> None:
         """
         Get lots of summary statistics using one big query. Sets many attributes
         """
-
-        stargazers = 0
-        forks = 0
-        languages = dict()
-        repos = set()
-        name = None
+        self._stargazers = 0
+        self._forks = 0
+        self._languages = dict()
+        self._repos = set()
 
         exclude_langs_lower = {x.lower() for x in self._exclude_langs}
 
@@ -334,12 +316,9 @@ Languages:
             )
             raw_results = raw_results if raw_results is not None else {}
 
-            repo_count = raw_results.get("data", {}).get("viewer", {}).get("repositories", {}).get("totalCount", 0) \
-                    + raw_results.get("data", {}).get("viewer", {}).get("repositoriesContributedTo", {}).get("totalCount", 0)
-
-            name = raw_results.get("data", {}).get("viewer", {}).get("name", None)
-            if name is None:
-                name = (
+            self._name = raw_results.get("data", {}).get("viewer", {}).get("name", None)
+            if self._name is None:
+                self._name = (
                     raw_results.get("data", {})
                     .get("viewer", {})
                     .get("login", "No Name")
@@ -354,24 +333,23 @@ Languages:
                 raw_results.get("data", {}).get("viewer", {}).get("repositories", {})
             )
 
-            fetched_repos = owned_repos.get("nodes", [])
+            repos = owned_repos.get("nodes", [])
             if not self._ignore_forked_repos:
-                fetched_repos += contrib_repos.get("nodes", [])
+                repos += contrib_repos.get("nodes", [])
 
-            for i, repo in enumerate(fetched_repos):
-                print(f"Fetching stats for repo ({i+1}/{repo_count})")
-
+            for repo in repos:
                 if repo is None:
                     continue
                 name = repo.get("nameWithOwner")
-                if name in repos or name in self._exclude_repos:
+                if name in self._repos or name in self._exclude_repos:
                     continue
-                repos.add(name)
-                stargazers += repo.get("stargazers").get("totalCount", 0)
-                forks += repo.get("forkCount", 0)
+                self._repos.add(name)
+                self._stargazers += repo.get("stargazers").get("totalCount", 0)
+                self._forks += repo.get("forkCount", 0)
 
                 for lang in repo.get("languages", {}).get("edges", []):
                     name = lang.get("node", {}).get("name", "Other")
+                    languages = await self.languages
                     if name.lower() in exclude_langs_lower:
                         continue
                     if name in languages:
@@ -398,15 +376,9 @@ Languages:
 
         # TODO: Improve languages to scale by number of contributions to
         #       specific filetypes
-        langs_total = sum([v.get("size", 0) for v in languages.values()])
-        for k, v in languages.items():
+        langs_total = sum([v.get("size", 0) for v in self._languages.values()])
+        for k, v in self._languages.items():
             v["prop"] = 100 * (v.get("size", 0) / langs_total)
-
-        self._stargazers = stargazers
-        self._forks = forks
-        self._languages = languages
-        self._repos = repos
-        self._name = name
 
     @property
     async def name(self) -> str:
@@ -560,18 +532,12 @@ async def main() -> None:
     """
     access_token = os.getenv("ACCESS_TOKEN")
     user = os.getenv("GITHUB_ACTOR")
-    excluded = os.getenv("EXCLUDED")
-    ignore_forked_repos = os.getenv("EXCLUDE_FORKED_REPOS") == "true"
-    if excluded is not None:
-        exclude_repos = set(excluded.split(","))
     if access_token is None or user is None:
         raise RuntimeError(
             "ACCESS_TOKEN and GITHUB_ACTOR environment variables cannot be None!"
         )
     async with aiohttp.ClientSession() as session:
-        s = Stats(user, access_token, session,
-                  exclude_repos=exclude_repos,
-                  ignore_forked_repos=ignore_forked_repos)
+        s = Stats(user, access_token, session)
         print(await s.to_str())
 
 
