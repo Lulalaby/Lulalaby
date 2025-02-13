@@ -1,24 +1,37 @@
 ## Hi there, I'm Lala Sabathil
 
-![status](https://api.statusbadges.me/badge/status/856780995629154305?style=for-the-badge)
+![status](https://api.statusbadges.me/badge/status/856780995629154305?style=for-the-badge) ![playing](https://api.statusbadges.me/badge/playing/856780995629154305?style=for-the-badge) ![vscode](https://api.statusbadges.me/badge/vscode/856780995629154305?style=for-the-badge) ![crunchyroll](https://api.statusbadges.me/badge/crunchyroll/856780995629154305?style=for-the-badge)
 
-![playing](https://api.statusbadges.me/badge/playing/856780995629154305?style=for-the-badge)
+👯 I’m looking forward to collaborate on interesting Projects
+😄 Pronouns: She/Her
+⚡ Fun fact: Meow!
 
-![vscode](https://api.statusbadges.me/badge/vscode/856780995629154305?style=for-the-badge)
-
-![crunchyroll](https://api.statusbadges.me/badge/crunchyroll/856780995629154305?style=for-the-badge)
-
-![Lala Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lulalaby&theme=radical)
-
-- 👯 I’m looking forward to collaborate on interesting Projects
-- 😄 Pronouns: She/Her
-- ⚡ Fun fact: Meow!
 
 ### Information
 
 I have problems with social interactions. Even if some things seem rude I definitly don't mean it like that.
 I really try my best to communicate as good as I can 💕
 Please bear with me 🙏
+
+---
+
+
+### 📊 GitHub Stats:
+![Lalas GitHub Stats](https://lulalaby-stats.ci.aitsys.dev/api?username=lulalaby&theme=radical&show_icons=true&count_private=true&rank_icon=percentile&include_all_commits=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+
+![Lalas Language Stats](https://lulalaby-stats.ci.aitsys.dev/api/top-langs/?username=Lulalaby&theme=radical&show_icons=true&count_private=true&langs_count=5&layout=donut&size_weight=0.5&count_weight=0.5)
+
+![Lalas WakaTime stats](https://lulalaby-stats.ci.aitsys.dev/api/wakatime?username=Lulalaby&theme=radical&show_icons=true&count_private=true&langs_count=5&layout=compact)
+<!--
+![overview](https://raw.githubusercontent.com/Lulalaby/Lulalaby/main/generated/overview.svg#gh-dark-mode-only)
+![languages](https://raw.githubusercontent.com/Lulalaby/Lulalaby/main/generated/languages.svg#gh-dark-mode-only)
+-->
+
+---
+
+### Some Gists
+
+![Discord Role Tags Documentation](https://lulalaby-stats.ci.aitsys.dev/api/gist?id=a9ac5fcce5c182efd55167e6141c1542&theme=radical&show_icons=true&count_private=true&show_owner=true)
 
 ---
 
@@ -30,14 +43,3 @@ Please bear with me 🙏
 <a href="https://github.com/ryo-ma/github-profile-trophy">
   <img width=800 src="https://github-profile-trophy.vercel.app/?username=lulalaby&column=8&theme=discord&no-frame=true&no-bg=true"/>
 </a>
-
-
-### 📊 GitHub Stats:
-![Lalas GitHub Stats](https://github-readme-stats.vercel.app/api?username=lulalaby&theme=radical&show_icons=true&count_private=true)
-
-![Lalas Repo Per Language Stats](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lulalaby&theme=radical) ![Lalas Most Commit Language Stats](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lulalaby&theme=radical)
-
-<!--
-![overview](https://raw.githubusercontent.com/Lulalaby/Lulalaby/main/generated/overview.svg#gh-dark-mode-only)
-![languages](https://raw.githubusercontent.com/Lulalaby/Lulalaby/main/generated/languages.svg#gh-dark-mode-only)
--->
