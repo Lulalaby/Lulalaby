@@ -23,7 +23,7 @@ Please bear with me 🙏
 
 ![Lalas Language Stats](https://lulalaby-stats.ci.aitsys.dev/api/top-langs/?username=Lulalaby&theme=radical&show_icons=true&count_private=true&langs_count=5&layout=donut&size_weight=0.5&count_weight=0.5)
 
-![Lalas WakaTime stats](https://lulalaby-stats.ci.aitsys.dev/api/wakatime?username=Lulalaby&theme=radical&show_icons=true&count_private=true&langs_count=5&layout=compact)
+[![Lalas WakaTime stats](https://lulalaby-stats.ci.aitsys.dev/api/wakatime?username=Lulalaby&theme=radical&show_icons=true&count_private=true&langs_count=5&layout=compact)](https://wakatime.com/@Lulalaby)
 <!--
 ![overview](https://raw.githubusercontent.com/Lulalaby/Lulalaby/main/generated/overview.svg#gh-dark-mode-only)
 ![languages](https://raw.githubusercontent.com/Lulalaby/Lulalaby/main/generated/languages.svg#gh-dark-mode-only)
@@ -33,7 +33,7 @@ Please bear with me 🙏
 
 ### 📝 Some Gists
 
-![Discord Role Tags Documentation](https://lulalaby-stats.ci.aitsys.dev/api/gist?id=a9ac5fcce5c182efd55167e6141c1542&theme=radical&show_icons=true&count_private=true&show_owner=true)
+[![Discord Role Tags Documentation](https://lulalaby-stats.ci.aitsys.dev/api/gist?id=a9ac5fcce5c182efd55167e6141c1542&theme=radical&show_icons=true&count_private=true&show_owner=true)](https://gist.github.com/Lulalaby/a9ac5fcce5c182efd55167e6141c1542)
 
 ---
 
