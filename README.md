@@ -17,6 +17,19 @@ Please bear with me 🙏
 
 ---
 
+### 💵 Active & Past Sponsors
+
+Many thanks to everyone who sponsored me 🥺❤️
+
+- [Snupai](https://github.com/Snupai)
+- [Deividas Kazakevicius](https://github.com/DeividasKaza)
+- [Solo_mag](https://github.com/Solomag)
+- [Anlanther](https://github.com/Anlanther)
+- [Will](https://github.com/villChurch)
+- [DaBez](https://github.com/DaBez)
+
+---
+
 
 ### 📊 GitHub Stats:
 ![Lalas GitHub Stats](https://lulalaby-stats.ci.aitsys.dev/api?username=lulalaby&theme=radical&show_icons=true&count_private=true&rank_icon=percentile&include_all_commits=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
