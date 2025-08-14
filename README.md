@@ -27,6 +27,8 @@ Many thanks to everyone who sponsored me 🥺❤️
 - [Anlanther](https://github.com/Anlanther)
 - [Will](https://github.com/villChurch)
 - [DaBez](https://github.com/DaBez)
+- [Honza Javorek](https://github.com/honzajavorek)
+- [skyekingburner](https://github.com/skyekingburner)
 
 ---
 
